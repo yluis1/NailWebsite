@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nails by Destiny</title>
+    <link rel="stylesheet" href="styles.css"> 
+
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Nails by Destiny</h1>
+        <blockquote>"The happiest girls have the prettiest nails."</blockquote> 
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="javascript:void(0)" onclick="showSection('services-content')">Services</a></li>
+            <li><a href="javascript:void(0)" onclick="showSection('gallery-content')">Gallery</a></li>
+            <li><a href="javascript:void(0)" onclick="showSection('booking-content')">Book an Appointment</a></li>
+            <li><a href="javascript:void(0)" onclick="showSection('payment-content')">Payment Types</a></li>
+            <li><a href="javascript:void(0)" onclick="showSection('contact-content')">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Services Section -->
+    <section id="services-content" class="content-section">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Gel Manicure</h3>
+            <p>$20</p>
+        </div>
+        <div class="service">
+            <h3>Acrylic Overlay</h3>
+            <p>$25</p>
+        </div>
+        <div class="service">
+            <h3>Short</h3>
+            <p>$30</p>
+        </div>
+        <div class="service">
+            <h3>Medium</h3>
+            <p>$35</p>
+        </div>
+        <div class="service">
+            <h3>Long</h3>
+            <p>$45</p>
+        </div>
+        <div class="service">
+            <h3>X-long</h3>
+            <p>$50</p>
+        </div>
+        <div class="service">
+            <h3>XX-long</h3>
+            <p>$65</p>
+        </div>
+        <div class="service">
+            <h3>Soakoff</h3>
+            <p>$15</p>
+        </div>
+        <div class="service">
+            <h3>Nail Art</h3>
+            <p>$3+</p>
+        </div>
+        <div class="service">
+            <h3>Charms/rhinestones</h3>
+            <p>$3+</p>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery-content" class="content-section">
+        <h2>Gallery</h2>
+        <div class="gallery-container">
+            <img src="images/nail1.jpg" alt="Nail Art 1">
+            <img src="images/nail2.jpg" alt="Nail Art 2">
+            <img src="images/nail3.jpg" alt="Nail Art 3">
+            <img src="images/nail4.jpg" alt="Nail Art 4">
+            <img src="images/nail5.jpg" alt="Nail Art 5">
+            <img src="images/nail6.jpg" alt="Nail Art 6">
+            <img src="images/nail7.jpg" alt="Nail Art 7">
+            <img src="images/nail8.jpg" alt="Nail Art 8">
+            <img src="images/nail9.jpg" alt="Nail Art 9">
+            <img src="images/nail10.jpg" alt="Nail Art 10">
+
+        </div>
+    </section>
+
+   <!-- Appointment Booking Section -->
+<section id="booking-content" class="content-section">
+    <h2>Book an Appointment</h2>
+    <p>To book an appointment, please visit our Instagram page!</p>
+    <a href="https://www.instagram.com/nailzxdestiny/" target="_blank">
+        <button style="padding: 15px; background-color: #ff9966; color: white; font-size: 1.2em; border: none; cursor: pointer;">
+            Book via Instagram
+        </button>
+    </a>
+</section>
+
+    <!-- Payment Types Section -->
+    <section id="payment-content" class="content-section">
+        <h2>Payment Types</h2>
+        <ul>
+            <li>Cash</li>
+            <li>Cashapp</li>
+            <li>Zelle</li>
+        </ul>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact-content" class="content-section">
+        <h2>Contact Us</h2>
+        <p>Email: barbadestiny11@gmail.com</p>
+        <p>Phone: (323) 272-9670</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Follow us on social media</p>
+        <a href="https://www.instagram.com/nailzxdestiny/">Instagram</a> |
+        <a href="https://www.facebook.com/destiny.barba.5">Facebook</a> |
+        <a href="https://www.tiktok.com/@itzz_destiny_">TikTok</a>
+        <p>&copy; 2024 Nails by Destiny</p>
+    </footer>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,175 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    background-color: #ffffff; /* Background color for the page */
+    display: flex;
+    flex-direction: column; /* Ensure content flows vertically */}
+
+
+/* Header with Glitter Background */
+header {
+    background-image: url('images/pink.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    box-shadow: 0 0 20px rgba(255, 105, 180, 0.6);
+    margin: 0;
+    flex: 1;
+}
+
+/* Header Title and Quote Styling */
+header h1 {
+    font-family: "Courier New", cursive;
+    color: black; 
+    font-size: 3em; 
+    font-weight: bold; 
+}
+
+header blockquote {
+    font-family: 'Dancing Script', cursive; 
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold; 
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    margin: 0;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    color: #ffcc99;
+}
+
+/* Section Styles */
+.content-section {
+    display: none;
+    padding: 50px;
+}
+
+#services-content, #gallery-content, #booking-content, #contact-content, #payment-content
+
+/* Payment Section */ ul {
+    list-style-type: none; 
+    padding: 0; 
+    text-align: center; 
+}
+/* Payment Section */ h2 {
+    text-align: center;
+    font-size: 2em; 
+    margin-bottom: 20px;
+}
+
+
+/* Services Section */
+.service {
+    margin: 20px 0;
+}
+
+.service h3 {
+    color: #ffc0cb;
+}
+
+/* Gallery Section */
+#gallery-content {
+    background-color: #fec1cc;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallery-container img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* Booking Section */
+#booking-content {
+    background-color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    margin: 10px 0 5px 0;
+}
+
+input, select {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+input[type="submit"] {
+    background-color: #ff9966;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff6600;
+}
+
+/* Payment Section */
+#payment-content {
+    background-color: #fec1cc;
+}
+
+/* Contact Section */
+#contact-content {
+    background-color: #fec1cc;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
